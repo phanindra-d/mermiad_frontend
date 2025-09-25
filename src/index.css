@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 800;
+}
+/* Global font setup */
+body {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #222;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: 700; 
+  margin: 0.5em 0;
+  color: #111;
+}
+
+/* Paragraphs & list items */
+p, li, span {
+  font-weight: 450; 
+  font-size: 1rem;
+}
+
+/* Strong highlight text */
+.strong-text {
+  font-weight: 800; 
+  color: #000;
+}
+
+.mermaid {
+  font-family: "IBM Plex Sans Condensed", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px;
+  line-height: 1.4;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.container{
+  width: 100vw;
+  min-height: 100vh;
+}

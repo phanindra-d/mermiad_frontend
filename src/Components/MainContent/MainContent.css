@@ -1,0 +1,90 @@
+.main-content{
+    display: flex;
+    gap: 2rem;
+    margin-top: 80px;
+    width: 100%;
+    padding: 2rem;
+}
+.left-container{
+    min-height: 600px; /* or your preferred height */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+}
+.right-container {
+  background: white; /* very light blue/gray */
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  margin-top: 75px;
+  border-radius: 16px;
+  height: 700px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border:1px solid black;
+}
+.generate-btn {
+  background: #12b3ff;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s, width 0.3s;
+  width: 100%;
+  max-width: 200px;
+}
+
+.generate-btn:hover {
+  background: #0a8fd6;
+  width: 320px; /* slightly wider on hover */
+}
+
+.diagram-type{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    gap: 10px;
+}
+#diagramType{
+    padding: 8px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+
+.chat-send-btn {
+  background: #12b3ff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 1.2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.diagram-preview {
+  max-height: 80vh;      /* or set to match your layout */
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 24px;
+}
+
+.preview .mermaid svg {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100%;
+  max-height: 100%;
+}
+
